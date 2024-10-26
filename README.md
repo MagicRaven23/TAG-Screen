@@ -48,25 +48,36 @@ python3 Raspberry-screen.py
   ```bash
   pyinstaller --onefile --windowed --icon=logo.ico code/Screen-Streamer.py
   ```
-* #### The executable file is located in the dist folder
+* #### The executable file is located in the `dist` folder
 </details>
 
 <details>
 
 <summary>Windows</summary>
 
-### Installation
+## Installation
 
-Fill out the `config file` with your bot token and your chat ID. <br>
-Then you can install the libraries.
-
-
-```python
-   pip install discord.py
-   pip install pytube
-   pip install yt-dlp
-   pip install discord-ext-bot
-   pip install asyncio
+### 1. Clone Repository
+```bash
+git clone https://github.com/MagicRaven23/TAG-Screen
+cd TAG-Screen
 ```
-install ffmpeg: <br> https://cran.r-project.org/web/packages/act/vignettes/install_ffmpeg.html
+### 2. Start Programm
+```bash
+python3 Raspberry-screen.py
+```
+### 3. Executable File
+* #### Install pyinstaller
+  ```bash
+  pip install pyinstaller
+  ```
+* #### Create Executable File
+  ```bash
+  pyinstaller --onefile --windowed --icon=logo.ico code/Screen-Streamer.py
+  ```
+* #### The executable file is located in the `dist` folder
 </details>
+
+> [!NOTE]
+> Install `ffmpeg` on Windows </br>
+> https://cran.r-project.org/web/packages/act/vignettes/install_ffmpeg.html
