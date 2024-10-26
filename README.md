@@ -1,6 +1,6 @@
 # Raspberry Screen Streamer
 
-![Logo](logo.png)
+<img src="tag-logo.png" width="200" />
 
 Dies ist ein einfaches Tkinter-Interface zur Steuerung eines `ffmpeg`-basierten Screen-Streamers, der den Bildschirm an ein Raspberry Pi-Gerät sendet. Das Programm erkennt automatisch das Betriebssystem und passt die `ffmpeg`-Befehle entsprechend an.
 
@@ -19,3 +19,44 @@ Dies ist ein einfaches Tkinter-Interface zur Steuerung eines `ffmpeg`-basierten 
 - Installiere die notwendigen Python-Pakete:
   ```bash
   pip install tkinter
+
+<details>
+
+<summary>Linux</summary>
+
+## Installation
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/dein-username/raspberry-screen-streamer.git
+cd raspberry-screen-streamer
+```
+### 2. Install ffmpeg
+```bash 
+sudo apt install ffmpeg
+```
+### 3. Start Programm
+```bash
+python3 Raspberry-screen.py
+```
+</details>
+
+<details>
+
+<summary>Windows</summary>
+
+### Installation
+
+Fill out the `config file` with your bot token and your chat ID. <br>
+Then you can install the libraries.
+
+
+```python
+   pip install discord.py
+   pip install pytube
+   pip install yt-dlp
+   pip install discord-ext-bot
+   pip install asyncio
+```
+install ffmpeg: <br> https://cran.r-project.org/web/packages/act/vignettes/install_ffmpeg.html
+</details>
