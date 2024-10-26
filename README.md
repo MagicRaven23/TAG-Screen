@@ -1,29 +1,21 @@
-# TAG-Screen
+# Raspberry Screen Streamer
 
+![Logo](logo.png)
 
-## Install
-```bash
-git clone https://github.com/MagicRaven23/TAG-Screen
-```
+Dies ist ein einfaches Tkinter-Interface zur Steuerung eines `ffmpeg`-basierten Screen-Streamers, der den Bildschirm an ein Raspberry Pi-Gerät sendet. Das Programm erkennt automatisch das Betriebssystem und passt die `ffmpeg`-Befehle entsprechend an.
 
-### Linux
+## Funktionen
+- Starten und Stoppen des Bildschirm-Streamings.
+- Dynamische Anpassung der Framerate auf Windows.
+- Unterstützung für Windows und Linux.
+- IP-Adresse des Raspberry Pi konfigurierbar.
 
-For linux use this Commands 
-```bash
-cd Linux
-cp TAG-Screen.dektop ~/Desktop/TAG-Screen.dektop
-```
+## Installation
 
-### Windows
+### 1. Voraussetzungen
 
-For Windows use this Commands 
-```bash
-cd Wndows
-cp TAG-Screen.exe ~/Desktop/TAG-Screen.exe
-```
-
-## Raspberry
-
-```bash
-bash saidfhishf.sh
-```
+- Python 3.x muss installiert sein (Windows und Linux).
+- ffmpeg muss auf dem System installiert sein und im Pfad verfügbar sein.
+- Installiere die notwendigen Python-Pakete:
+  ```bash
+  pip install tkinter
