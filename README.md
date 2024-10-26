@@ -46,7 +46,7 @@ python3 Raspberry-screen.py
   ```
 * #### Create Executable File
   ```bash
-  pyinstaller --onefile --windowed --icon=app.ico app.py
+  pyinstaller --onefile --windowed --icon=logo.ico code/Screen-Streamer.py
   ```
 * #### The executable file is located in the dist folder
 </details>
