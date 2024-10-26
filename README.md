@@ -28,8 +28,8 @@ Dies ist ein einfaches Tkinter-Interface zur Steuerung eines `ffmpeg`-basierten 
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/dein-username/raspberry-screen-streamer.git
-cd raspberry-screen-streamer
+git clone https://github.com/MagicRaven23/TAG-Screen
+cd TAG-Screen
 ```
 ### 2. Install ffmpeg
 ```bash 
@@ -39,6 +39,16 @@ sudo apt install ffmpeg
 ```bash
 python3 Raspberry-screen.py
 ```
+### 4. Executable File
+* #### Install pyinstaller
+  ```bash
+  pip install pyinstaller
+  ```
+* #### Create Executable File
+  ```bash
+  pyinstaller --onefile --windowed --icon=app.ico app.py
+  ```
+* #### The executable file is located in the dist folder
 </details>
 
 <details>
