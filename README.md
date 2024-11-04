@@ -24,7 +24,7 @@ Dies ist ein einfaches Tkinter-Interface zur Steuerung eines `ffmpeg`-basierten 
 
 <summary>Raspberry Pi</summary>
 
-## Installation
+## This page is in work
 
 
 * #### The executable file is located in the `dist` folder
